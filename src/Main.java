@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -10,8 +12,13 @@ public class Main {
 
         numericOperations.readNumbers(myArray);
 
-        System.out.println(numericOperations.additionEven(myArray));
+        System.out.println("The addition of the even numbers is " + numericOperations.additionEven(myArray));
 
+        System.out.println("The multiplication of the odd numbers is " + numericOperations.multiplyOdds(myArray));
+
+        numericOperations.sortAscending(myArray);
+
+        System.out.println(Arrays.toString(myArray));
 
     }
 }
