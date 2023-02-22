@@ -8,6 +8,10 @@ public class Main {
 
         int[] myArray = new int[10];
 
+        numericOperations.readNumbers(myArray);
+
+        System.out.println(numericOperations.additionEven(myArray));
+
 
     }
 }
